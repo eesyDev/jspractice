@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div id="filter">
+            <label for="categoryFilter">Categories</label>
+            <select name="" id="categoryFilter">
+                <option value="">All categories</option>
+            </select>
+            <label for="supplierFilter">Suppliers</label>
+            <select name="" id="supplierFilter">
+                <option value="">All Suppliers</option>
+            </select>
+    
+            <label for="minPrice"></label>
+            <input type="text" id="minPrice" placeholder="Enter min price">
+            <input type="text" id="maxPrice" placeholder="Enter max price">
+        </div>
+    
+        <div id="sort">
+            <label for="sortBy">Sort by</label>
+            <select name="" id="sortBy">
+                <option value="name">Name</option>
+                <option value="price">Price</option>
+            </select>
+        </div>
+        <div id="products"></div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
