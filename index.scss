@@ -7,6 +7,12 @@ body {
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 200px;
+}
+
 .container {
     max-width: 1400px;
     width: 100%;
@@ -25,4 +31,22 @@ body {
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 1rem;
     margin-top: 2rem;
+}
+
+select, input {
+    border: 1px solid #c3c3c3;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 6px;
+}
+
+.filter-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+#filter {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }

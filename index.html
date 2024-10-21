@@ -8,27 +8,29 @@
 </head>
 <body>
     <div class="container">
-        <div id="filter">
-            <label for="categoryFilter">Categories</label>
-            <select name="" id="categoryFilter">
-                <option value="">All categories</option>
-            </select>
-            <label for="supplierFilter">Suppliers</label>
-            <select name="" id="supplierFilter">
-                <option value="">All Suppliers</option>
-            </select>
-    
-            <label for="minPrice"></label>
-            <input type="text" id="minPrice" placeholder="Enter min price">
-            <input type="text" id="maxPrice" placeholder="Enter max price">
-        </div>
-    
-        <div id="sort">
-            <label for="sortBy">Sort by</label>
-            <select name="" id="sortBy">
-                <option value="name">Name</option>
-                <option value="price">Price</option>
-            </select>
+        <div class="filter-wrap">
+            <div id="filter">
+                <label for="categoryFilter">Categories</label>
+                <select name="" id="categoryFilter">
+                    <option value="">All categories</option>
+                </select>
+                <label for="supplierFilter">Suppliers</label>
+                <select name="" id="supplierFilter">
+                    <option value="">All Suppliers</option>
+                </select>
+        
+                <label for="minPrice"></label>
+                <input type="text" id="minPrice" placeholder="Enter min price">
+                <input type="text" id="maxPrice" placeholder="Enter max price">
+            </div>
+        
+            <div id="sort">
+                <label for="sortBy">Sort by</label>
+                <select name="" id="sortBy">
+                    <option value="name">Name</option>
+                    <option value="price">Price</option>
+                </select>
+            </div>
         </div>
         <div id="products"></div>
     </div>
